@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+
+		body{background-color: white;}
+		#logo{width: 200px; position:fixed;top: 30px; left: 70px;}
+		#copy{width: 150px; position: fixed;bottom: 10px; right: 50px;}
+		.box1{width: 980px;height: 650px; overflow: scroll;position: fixed;top: 140px;left: 90px;}
+		
+		#nav{list-style-type: none;margin: 0;padding: 0;background-color: #909090;width: 220px; position: fixed;right: 50px; top: 140px;border: solid 1px white;}
+		#nav li {border-bottom: solid 1px white;height: 80px;}
+		#nav li:last-child {border-bottom: none;}
+		#nav li a{display: block;bottom: 0; margin: 0; padding: 0;text-align: center;}
+		#nav li a:hover {background-color: #000000;}
+		#nav li :hover {background-color: #000000;}
+
+		#nav ul{list-style: none; margin: 0;padding: 0;position: absolute;right: 230px;top: 40px; width: 120px;height: 90px; background-color:black;text-align: center;opacity:1 ;}
+		#nav ul li{float: none; margin: 0;padding: 0;font-size: 10px;border-bottom: solid 1px white;height: 30px;}
+		#nav ul li a{text-decoration: none; padding: 0;margin: 0;}
+		#nav ul li a{font-weight: normal;color: white;padding: 0;margin: 0;height: 30px;}
+		#nav ul li:hover a {background: black;color: red;}
+		#nav li :hover ul{opacity: 1;}
+		#nav li :hover ul li{height: 100px;overflow: visible;padding: 0;}
+
+
+		#bmx {width: 220px;}
+		#surf {width: 220px;}
+		#hiphop {width: 220px;}
+		#skateboard{width: 220px;}
+		#grafiti {width: 220px;}
+		#fashion {width: 220px;}
+
+		#und1{width: 980px;}
+	</style>
+</head>
+<body>
+	<a href="index.html"><img src="logo.png" id="logo"></a>
+ 	<div class="box1"><img src="und1.png" id="und1"></div>
+ 	<ul id="nav">
+ 		<li><a href="bm1.html"><img src="bmx.png" id="bmx"></li>
+ 			<ul>
+ 				<li><a href="">derivation</a></li>
+ 				<li><a href="">oppsition</a></li>
+ 				<li><a href="">colaboration</a></li>
+ 			</ul>
+ 		<li><a href="su1.html"><img src="surf.png" id="surf"></li>
+ 		<li><a href="hi1.html"><img src="hiphop.png" id="hiphop"></li>
+ 		<li><a href="sk1.html"><img src="skateboard.png" id="skateboard"></li>
+ 		<li><a href="gr1.html"><img src="grafiti.png" id="grafiti"></li>
+ 		<li><a href="fa1.html"><img src="fashion.png" id="fashion"></li>
+ 	</ul>
+ 	<img src="copy.png" id="copy">
+</body>
+</html>
